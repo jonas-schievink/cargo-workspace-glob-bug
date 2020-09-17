@@ -1,0 +1,8 @@
+[package]
+name = "cargo-workspace-glob-bug"
+version = "0.1.0"
+authors = ["Jonas Schievink <jonasschievink@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = ["members/*"]
